@@ -1,0 +1,7 @@
+{
+  "name": "ai-religion",
+  "scripts": {
+    "start": "cd ru && OPENAI_API_KEY=$(cat ../.env | grep OPENAI_API_KEY | cut -d '=' -f 2) codex -m o3-pro --full-auto",
+    "git:facommit": "git add -A && git commit --amend --no-edit"
+  }
+}
