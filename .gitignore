@@ -1,3 +1,7 @@
 prompt.md
 node_modules
 .env
+/scripts/accepted
+/scripts/blocked
+/scripts/issues
+appeals
